@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.gitignore
+*.md
+.env
+.env.*
+*.local
+.amplify
+amplify_outputs*
+amplifyconfiguration*
+.vscode
+.idea
+*.log

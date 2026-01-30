@@ -26,7 +26,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
       </div>
       <div className="bg-muted relative hidden lg:block">
         <img
-          src="/public/Gemini_Generated_Image_n20uvwn20uvwn20u.png"
+          src="public/Gemini_Generated_Image_n20uvwn20uvwn20u.png"
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />

@@ -20,4 +20,14 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
+  // Allow exporting variants/constants alongside components (shadcn-style, data-table)
+  {
+    files: [
+      'src/components/ui/**/*.tsx',
+      'src/components/data-table.tsx',
+    ],
+    rules: {
+      'react-refresh/only-export-components': 'off',
+    },
+  },
 ])
